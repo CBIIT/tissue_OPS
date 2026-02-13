@@ -21,13 +21,29 @@ Email: sagarm2@nih.gov
 
 ## Installation
 
+### Option 1: Using pip with requirements.txt
+
 ```bash
-pip install numpy pandas tifffile cellpose torch scipy scikit-image
+pip install -r requirements.txt
 ```
 
-Additionally, you need the `ops` package for image processing:
+### Option 2: Using Conda/Anaconda (Recommended)
+
+Create a new conda environment:
 ```bash
-pip install ops-tools  # or install from source
+conda env create -f environment.yml
+conda activate tile_barcode_pipeline
+```
+
+### Option 3: Manual installation
+
+```bash
+pip install numpy pandas tifffile cellpose torch scipy scikit-image ops-tools
+```
+
+**Note**: The `ops-tools` package provides the OPS framework for image processing. If not available via pip, install from source:
+```bash
+pip install git+https://github.com/feldman4/OpticalPooledScreens.git
 ```
 
 ## Usage
