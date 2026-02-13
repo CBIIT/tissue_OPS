@@ -12,6 +12,13 @@ This pipeline processes multi-round fluorescence microscopy images to:
 
 **Important**: This pipeline is specifically designed for **NovaSeq sequencing chemistry** with two-color (FITC and Cy3) fluorescence detection.
 
+## Author
+
+**Md Abdul Kader Sagar**  
+High-Throughput Imaging Facility (HiTIF)  
+National Cancer Institute (NCI)  
+Email: sagarm2@nih.gov
+
 ## Installation
 
 ```bash
@@ -281,4 +288,6 @@ If you use this pipeline, please cite the OPS framework and Cellpose:
 
 ## License
 
-[Add your license information]
+Developed by Md Abdul Kader Sagar at the High-Throughput Imaging Facility (HiTIF), National Cancer Institute (NCI).
+
+For questions or support, contact: sagarm2@nih.gov
