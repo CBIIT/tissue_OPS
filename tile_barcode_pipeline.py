@@ -221,7 +221,7 @@ def extract_base_intensity(maxed, peaks, cells, threshold_peaks):
 # Barcode Computation (Two-Color Spot Intensity with Median Correction)
 # =============================================================================
 
-def compute_cell_barcodes_novaseq_quality_two_color_spot_intensity_median_correction_pick_best2(
+def compute_barcodes_two_color(
         intensity_values, labels_mask, positions, min_threshold_intensity=100):
     """
     Compute barcodes from 2-color spot intensity data with median correction.
@@ -611,7 +611,7 @@ def process_tile_image(tile_path, segment_nuclei_func=None,
     # 7. Compute barcodes
     (barcode_dataframe_cells, barcode_dataframe_spots,
      base_calls_array, quality_scores, _) = \
-        compute_cell_barcodes_novaseq_quality_two_color_spot_intensity_median_correction_pick_best2(
+        compute_barcodes_two_color(
             val, lab, pos, min_threshold_intensity=min_threshold_intensity
         )
 
