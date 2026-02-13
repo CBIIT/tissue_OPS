@@ -7,6 +7,12 @@ Contains functions for:
 - Tile processing pipeline (alignment, filtering, peak detection, barcode calling)
 - Two-color spot intensity barcode computation with median correction
 
+Author:
+    Md Abdul Kader Sagar
+    High-Throughput Imaging Facility (HiTIF)
+    National Cancer Institute (NCI)
+    Email: sagarm2@nih.gov
+
 Dependencies:
     pip install numpy pandas tifffile cellpose torch scipy scikit-image
 
